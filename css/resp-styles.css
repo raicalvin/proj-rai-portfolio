@@ -1,6 +1,19 @@
-/*Applied to all elements in the document*/
-* {
-  font-family: sans-serif; /*default font-family for*/
-  margin: 0; /*normalize any browser-specific margins*/
-  padding: 0; /*normalize any browser-specific padding*/
+@media screen and (min-width: 360px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
 }
