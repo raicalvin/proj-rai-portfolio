@@ -1,0 +1,6 @@
+/*Applied to all elements in the document*/
+* {
+  font-family: sans-serif; /*default font-family for*/
+  margin: 0; /*normalize any browser-specific margins*/
+  padding: 0; /*normalize any browser-specific padding*/
+}
