@@ -6,27 +6,52 @@
 
   /*border for all elements*//*
   border: 1px solid green;
-  padding: 2px;
-  */
-}
+  padding: 2px;*/
 
-/*Catch-all for over-spilled contents*/
-img, embed, object, video {
-  max-width: 100%;
-}
-
-.header-title {
-  width: 100%;
-  text-align: center;
-  color: white;
-  font-size: 24px;
 }
 
 .container-blue {
   background-color: #0096FF;
 }
 
+.container-black {
+  background-color: #0D0D0D;
+}
+
+.container-silver {
+  background-color: #F0F0F0;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  margin: auto;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+/*Catch-all for over-spilled contents*/
+img, embed, object, video {
+  max-width: 100%;
+  vertical-align: middle; /*fixes 3px bottom margin issue*/
+}
+
+.header-title {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
 .container-header {
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+.container-hero {
+  background-image: url("../img/hero-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
 }
