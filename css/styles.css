@@ -4,3 +4,8 @@
   margin: 0; /*normalize any browser-specific margins*/
   padding: 0; /*normalize any browser-specific padding*/
 }
+
+/*Catch-all for over-spilled contents*/
+img, embed, object, video {
+  max-width: 100%;
+}
