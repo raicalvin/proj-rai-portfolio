@@ -1,11 +1,32 @@
 /*Applied to all elements in the document*/
 * {
-  font-family: sans-serif; /*default font-family for*/
+  font-family: 'Assistant', sans-serif; /*default font-family for*/
   margin: 0; /*normalize any browser-specific margins*/
   padding: 0; /*normalize any browser-specific padding*/
+
+  /*border for all elements*//*
+  border: 1px solid green;
+  padding: 2px;
+  */
 }
 
 /*Catch-all for over-spilled contents*/
 img, embed, object, video {
   max-width: 100%;
+}
+
+.header-title {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.container-blue {
+  background-color: #0096FF;
+}
+
+.container-header {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
