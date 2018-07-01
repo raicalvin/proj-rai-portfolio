@@ -4,9 +4,9 @@
   margin: 0; /*normalize any browser-specific margins*/
   padding: 0; /*normalize any browser-specific padding*/
 
-  /*border for all elements*//*
+  /*border for all elements*/
   border: 1px solid green;
-  padding: 2px;*/
+  padding: 2px;
 }
 
 /*CONTAINER BACKGROUND COLORS*/
@@ -31,20 +31,13 @@
 }
 
 /*DEFAULT HEADING STYLES*/
-h1 {
+h1 { /*This is for all other headers*/
   width: 100%;
   text-align: center;
   font-family: 'Assistant-Bold';
   padding-top: 48px;
   padding-bottom: 48px;
   font-size: 32px;
-}
-h2 {
-  font-family: 'Oswald', sans-serif;
-  color: white;
-  margin: auto;
-  font-size: 36px;
-  font-weight: normal;
 }
 
 /*CATCH-ALL FOR OVER-SPILLED CONTENT*/
