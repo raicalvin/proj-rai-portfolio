@@ -4,6 +4,16 @@
 }
 
 @media screen and (min-width: 360px) {
+  /*- - - - -DEFAULT RESPONSIVE STYLES- - - - -*/
+  h1 { /*This is for all section headers*/
+    width: 100%;
+    text-align: center;
+    font-family: 'Assistant-Bold';
+    padding-top: 36px;
+    padding-bottom: 36px;
+    font-size: 24px;
+  }
+  /*- - - - -HERO RESPONSIVE STYLES- - - - -*/
   h2 { /*Hero Intro Text*/
     margin: auto;
     font-size: 24px;
@@ -12,28 +22,112 @@
     color: white;
     font-weight: normal;
   }
+  .container-hero {
+    background-image: url("../img/hero-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  /*- - - - -ABOUT ME RESPONSIVE STYLES- - - - -*/
+  .container-aboutme {
+    align-items: center;
+    margin-bottom: 128px;
+  }
+  .aboutme-section-block {
+    width: 100%;
+  }
+  .blue-break-line-container {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blue-break-line {
+    width: 100px;
+    height: 2px;
+    margin-bottom: 12px;
+  }
+  .aboutme-written-content-container {
+    width: 100%;
+  }
+  .aboutme-written-content {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Amiko-Regular';
+    text-align: justify;
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  /*DEFAULT RESPONSIVE STYLES*/
+  h1 { /*This is for all section headers*/
+    padding-top: 42px;
+    padding-bottom: 42px;
+    font-size: 28px;
+  }
+  /*HERO RESPONSIVE STYLES*/
   h2 { /*Hero Intro Text*/
     font-size: 27px;
+  }
+  .container-hero {
+    height: 70vh;
+  }
+  /*- - - - -ABOUT ME RESPONSIVE STYLES- - - - -*/
+  .blue-break-line-container {
+    width: 600px;
+  }
+  .aboutme-written-content {
+    width: 600px;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  /*DEFAULT RESPONSIVE STYLES*/
+  h1 { /*This is for all section headers*/
+    padding-top: 42px;
+    padding-bottom: 42px;
+    font-size: 32px;
+  }
+  /*HERO RESPONSIVE STYLES*/
   h2 { /*Hero Intro Text*/
     font-size: 30px;
+  }
+  .container-hero {
+    height: 80vh;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  /*DEFAULT RESPONSIVE STYLES*/
+  h1 { /*This is for all section headers*/
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-size: 36px;
+  }
+  /*HERO RESPONSIVE STYLES*/
   h2 { /*Hero Intro Text*/
     font-size: 33px;
+  }
+  .container-hero {
+    height: 90vh;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  /*DEFAULT RESPONSIVE STYLES*/
+  h1 { /*This is for all section headers*/
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-size: 36px;
+  }
   h2 { /*Hero Intro Text*/
     font-size: 36px;
+  }
+  .container-hero {
+    height: 100vh;
   }
 }

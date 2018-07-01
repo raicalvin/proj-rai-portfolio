@@ -4,9 +4,9 @@
   margin: 0; /*normalize any browser-specific margins*/
   padding: 0; /*normalize any browser-specific padding*/
 
-  /*border for all elements*/
+  /*border for all elements*//*
   border: 1px solid green;
-  padding: 2px;
+  padding: 2px;*/
 }
 
 /*CONTAINER BACKGROUND COLORS*/
@@ -20,24 +20,14 @@
   background-color: #F0F0F0;
 }
 
+/*CUSTOM FONT FACES*/
 @font-face {
   font-family: "Assistant-Bold";
   src: url("../fonts/assistant/Assistant-Bold.ttf");
 }
-
 @font-face {
   font-family: "Amiko-Regular";
   src: url("../fonts/amiko/Amiko-Regular.ttf");
-}
-
-/*DEFAULT HEADING STYLES*/
-h1 { /*This is for all other headers*/
-  width: 100%;
-  text-align: center;
-  font-family: 'Assistant-Bold';
-  padding-top: 48px;
-  padding-bottom: 48px;
-  font-size: 32px;
 }
 
 /*CATCH-ALL FOR OVER-SPILLED CONTENT*/
@@ -45,58 +35,14 @@ img, embed, object, video {
   max-width: 100%;
   vertical-align: middle; /*fixes 3px bottom margin issue*/
 }
-
+/*HEADER DEFAULT STYLES*/
 .header-title {
   width: 100%;
   text-align: center;
   color: white;
   font-size: 18px;
 }
-
 .container-header {
   padding-top: 12px;
   padding-bottom: 12px;
-}
-
-.container-hero {
-  background-image: url("../img/hero-image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 90vh;
-}
-
-.container-aboutme {
-  align-items: center;
-  margin-bottom: 128px;
-}
-
-.aboutme-section-block {
-  width: 100%;
-}
-
-.blue-break-line-container {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.blue-break-line {
-  width: 100px;
-  height: 2px;
-  margin-bottom: 12px;
-}
-
-.aboutme-written-content-container {
-  width: 100%;
-
-}
-
-.aboutme-written-content {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Amiko-Regular';
-  text-align: justify;
-  font-size: 16px;
 }
