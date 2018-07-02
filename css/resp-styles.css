@@ -60,6 +60,35 @@
     text-align: justify;
     font-size: 16px;
   }
+
+  /*- - - - -ANDROID PROJECTS RESPONSIVE STYLES- - - - -*/
+  .grid {
+    width: 1000px;
+    margin: auto;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+  .grid-child {
+    background-color: white;
+  }
+  .grid-child-project {
+    overflow: auto;
+    text-align: center;
+    margin: 16px;
+  }
+  .android-project-title {
+    width: 100%;
+    font-family: "Amiko-Regular";
+  }
+  .project-image {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
 }
 
 @media screen and (min-width: 768px) {

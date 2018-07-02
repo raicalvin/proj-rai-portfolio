@@ -46,3 +46,57 @@ img, embed, object, video {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+
+/*GRID CONTAINER*/
+.grid {
+  width: 1000px;
+  margin: auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+.grid-child {
+  background-color: white;
+  position: relative;
+}
+.grid-child-project {
+  overflow: auto;
+  text-align: center;
+  margin: 16px;
+}
+.grid-child:hover .android-overlay {
+  width: 100%;
+}
+.android-project-title {
+  width: 100%;
+  font-family: "Amiko-Regular";
+}
+.project-image {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.android-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.75;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.25s ease;
+}
+.android-overlay-text {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
