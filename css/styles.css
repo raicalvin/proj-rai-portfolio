@@ -92,7 +92,7 @@ img, embed, object, video {
 }
 .android-overlay-text {
   color: white;
-  font-size: 24px;
+  font-family: "Amiko-Regular";
   position: absolute;
   top: 50%;
   left: 50%;
