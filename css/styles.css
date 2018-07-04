@@ -86,9 +86,13 @@ img, embed, object, video {
 
 .close:hover,
 .close:focus { /*Close Button Hover Effect*/
-    color: black;
+    color: #0096FF;
     text-decoration: none;
     cursor: pointer;
+}
+.modal-project-description {
+  font-family: 'Amiko-Regular';
+  padding-bottom: 24px;
 }
 
 /*GRID CONTAINER WITH OVERLAY FOR ANDROID PROJECTS*/
