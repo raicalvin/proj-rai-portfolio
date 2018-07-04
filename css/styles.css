@@ -9,6 +9,11 @@
   padding: 2px;*/
 }
 
+/*MAKE ALL A-TAGS INHERIT STYLES FROM PARENT*/
+a {
+  all: inherit;
+}
+
 /*CONTAINER BACKGROUND COLORS*/
 .container-blue {
   background-color: #0096FF;
@@ -29,12 +34,17 @@
   font-family: "Amiko-Regular";
   src: url("../fonts/amiko/Amiko-Regular.ttf");
 }
+@font-face {
+  font-family: "Amiko-Bold";
+  src: url("../fonts/amiko/Amiko-Bold.ttf");
+}
 
 /*CATCH-ALL FOR OVER-SPILLED CONTENT*/
 img, embed, object, video {
   max-width: 100%;
   vertical-align: middle; /*fixes 3px bottom margin issue*/
 }
+
 /*HEADER DEFAULT STYLES*/
 .header-title {
   width: 100%;
@@ -47,17 +57,41 @@ img, embed, object, video {
   padding-bottom: 12px;
 }
 
-/*GRID CONTAINER*/
-.grid {
-  width: 1000px;
-  margin: auto;
+/*MODAL STYLE*/
+.modal { /*Modal Background*/
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
+.modal-content { /*Modal COntent Box Inside*/
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
 }
+.close { /*Close Button*/
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus { /*Close Button Hover Effect*/
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*GRID CONTAINER WITH OVERLAY FOR ANDROID PROJECTS*/
 .grid-child {
   background-color: white;
   position: relative;
@@ -69,10 +103,6 @@ img, embed, object, video {
 }
 .grid-child:hover .android-overlay {
   width: 100%;
-}
-.android-project-title {
-  width: 100%;
-  font-family: "Amiko-Regular";
 }
 .project-image {
   width: 100%;
@@ -92,11 +122,23 @@ img, embed, object, video {
 }
 .android-overlay-text {
   color: white;
-  font-family: "Amiko-Regular";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   white-space: nowrap;
+}
+.android-overlay-text > span {
+  font-family: "Amiko-Bold";
+  font-size: 16px;
+}
+.android-overlay-text > span > a:hover {
+  color: #0096FF;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+.overlay-text-divider {
+  margin-right: 1em;
+  margin-left: 1em;
 }
