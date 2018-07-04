@@ -16,6 +16,10 @@
   .misc-space-divider-1 {
     height: 96px;
   }
+  .fun-quote-div {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
   /*- - - - -HERO RESPONSIVE STYLES- - - - -*/
   h2 { /*Hero Intro Text*/
     margin: auto;
@@ -90,6 +94,10 @@
   .misc-space-divider-1 {
     height: 112px;
   }
+  .fun-quote-div {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
   /*HERO RESPONSIVE STYLES*/
   h2 { /*Hero Intro Text*/
     font-size: 27px;
@@ -143,6 +151,10 @@
   .misc-space-divider-1 {
     height: 132px;
   }
+  .fun-quote-div {
+    padding-top: 192px;
+    padding-bottom: 192px;
+  }
   /*HERO RESPONSIVE STYLES*/
   h2 { /*Hero Intro Text*/
     font-size: 33px;
@@ -173,4 +185,5 @@
   .container-hero {
     height: 100vh;
   }
+
 }
