@@ -59,7 +59,7 @@ img, embed, object, video {
 
 /*MODAL STYLE*/
 .modal { /*Modal Background*/
-    display: none; /* Hidden by default */
+    display: block; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
@@ -132,6 +132,11 @@ img, embed, object, video {
 .android-overlay-text > span {
   font-family: "Amiko-Bold";
   font-size: 16px;
+}
+.android-overlay-text > span:hover {
+  color: #0096FF;
+  transition-duration: .25s;
+  cursor: pointer;
 }
 .android-overlay-text > span > a:hover {
   color: #0096FF;
