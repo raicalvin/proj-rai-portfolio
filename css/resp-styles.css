@@ -170,6 +170,11 @@
   .grid-container {
     grid-template-columns: auto auto auto;
   }
+  /*- - - - -FRONT END PROJECTS RESPONSIVE STYLES- - - - -*/
+  .grid-front-end-child {
+
+  }
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -185,5 +190,18 @@
   .container-hero {
     height: 100vh;
   }
+  /*FRONT END PROJECT RESPONSIVE STYLES*/
+  .front-end-child {
+    width: 50%;
+    background-color: #0096FF;
+  }
+  .front-end-child-image {
+    background-color: #F0F0F0;
+    text-align: center;
+  }
+  .front-end-child-description {
 
+  }
+  .front-end-project-text {
+  }
 }
