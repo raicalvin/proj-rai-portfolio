@@ -71,6 +71,9 @@
     width: 340px;
     margin: auto;
   }
+  .grid-child {
+    background-color: white;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: auto;
