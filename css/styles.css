@@ -106,19 +106,19 @@ img, embed, object, video {
   background-color: white;
   position: relative;
 }
-.grid-child-project {
+.element-overlay {
   overflow: auto;
   text-align: center;
   margin: 16px;
 }
-.grid-child:hover .android-overlay {
+.element-overlay:hover .overlay {
   width: 100%;
 }
 .project-image {
   width: 100%;
   margin-bottom: 16px;
 }
-.android-overlay {
+.overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -130,7 +130,7 @@ img, embed, object, video {
   height: 100%;
   transition: 0.25s ease;
 }
-.android-overlay-text {
+.overlay-text {
   color: white;
   position: absolute;
   top: 50%;
@@ -139,16 +139,16 @@ img, embed, object, video {
   -ms-transform: translate(-50%, -50%);
   white-space: nowrap;
 }
-.android-overlay-text > span {
+.overlay-text > span {
   font-family: "Amiko-Bold";
   font-size: 16px;
 }
-.android-overlay-text > span:hover {
+.overlay-text > span:hover {
   color: #0096FF;
   transition-duration: .25s;
   cursor: pointer;
 }
-.android-overlay-text > span > a:hover {
+.overlay-text > span > a:hover {
   color: #0096FF;
   transition-duration: .25s;
   cursor: pointer;
@@ -160,7 +160,7 @@ img, embed, object, video {
 /*GRID CONTAINER WITH OVERLAY FOR FRONT END PROJECTS*/
 .front-end-child-image {
   position: relative;
-  width: 505;
+  width: 50%;
 }
 .front-end-child-image:hover .front-end-overlay {
   width: 100%;
