@@ -157,3 +157,50 @@ img, embed, object, video {
   margin-right: 1em;
   margin-left: 1em;
 }
+/*GRID CONTAINER WITH OVERLAY FOR FRONT END PROJECTS*/
+.front-end-child-image {
+  position: relative;
+  width: 505;
+}
+.front-end-child-image:hover .front-end-overlay {
+  width: 100%;
+}
+.front-end-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.75;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.25s ease;
+}
+.front-end-overlay-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.front-end-overlay-text > span {
+  font-family: "Amiko-Bold";
+  font-size: 16px;
+}
+.front-end-overlay-text > span:hover {
+  color: #0096FF;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+.front-end-overlay-text > span > a:hover {
+  color: #0096FF;
+  transition-duration: .25s;
+  cursor: pointer;
+}
+.overlay-text-divider {
+  margin-right: 1em;
+  margin-left: 1em;
+}

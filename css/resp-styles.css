@@ -82,6 +82,30 @@
     font-family: "Amiko-Regular";
     font-size: 16px;
   }
+  /*FRONT END PROJECT RESPONSIVE STYLES*/
+  .front-end-child {
+    width: 100%;
+  }
+  .front-end-child-image {
+    background-color: #F0F0F0;
+    text-align: center;
+  }
+  .container-front-end {
+    -ms-align-items: center;
+    align-items: center;
+  }
+  .front-end-project-text {
+    padding: 32px;
+    color: white;
+  }
+  .front-end-project-text > h3 {
+    margin-bottom: 32px;
+    font-family: "Assistant-Bold";
+  }
+  .front-end-project-text > p {
+    font-family: "Amiko-Regular";
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -119,7 +143,10 @@
   .grid-container {
     grid-template-columns: auto auto;
   }
-
+  /*FRONT END PROJECT RESPONSIVE STYLES*/
+  .front-end-child-image > img {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -138,6 +165,10 @@
   }
   .container-hero {
     height: 80vh;
+  }
+  /*FRONT END PROJECT RESPONSIVE STYLES*/
+  .front-end-child {
+    width: 100%;
   }
 }
 
@@ -162,7 +193,6 @@
   .container-hero {
     height: 90vh;
   }
-
   /*- - - - -ANDROID PROJECTS RESPONSIVE STYLES- - - - -*/
   .grid {
     width: 1000px;
@@ -171,10 +201,21 @@
     grid-template-columns: auto auto auto;
   }
   /*- - - - -FRONT END PROJECTS RESPONSIVE STYLES- - - - -*/
-  .grid-front-end-child {
-
+  .grid-front-end {
+    width: 1000px;
   }
-
+  .grid-front-end-child {
+    grid-template-columns: auto;
+  }
+  .front-end-child {
+    width: 50%;
+  }
+  .front-end-child-image > img {
+    width: 100%;
+  }
+  .container-black > .container > .front-end-child-description {
+    order: -1;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -193,14 +234,5 @@
   /*FRONT END PROJECT RESPONSIVE STYLES*/
   .front-end-child {
     width: 50%;
-    background-color: #0096FF;
-  }
-  .front-end-child-image {
-    background-color: #F0F0F0;
-    text-align: center;
-  }
-  .container-front-end {
-    -ms-align-items: center;
-    align-items: center;
   }
 }
