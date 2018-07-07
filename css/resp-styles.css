@@ -85,7 +85,7 @@
     font-family: "Amiko-Regular";
     font-size: 16px;
   }
-  /*FRONT END PROJECT RESPONSIVE STYLES*/
+  /*- - - - -FRONT END PROJECT RESPONSIVE STYLES- - - - -*/
   .front-end-child {
     width: 100%;
   }
@@ -238,4 +238,15 @@
   .front-end-child {
     width: 50%;
   }
+  /*- - - - -UI/UX DESIGN SAMPLES- - - - -*/
+  .grid-container-uiux {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+  .grid-container-child-uiux > img {
+    width: 100%;
+  }
+
 }
