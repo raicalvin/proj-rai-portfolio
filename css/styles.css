@@ -216,6 +216,7 @@ img, embed, object, video {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .contact-item > img {
   display: inline;
