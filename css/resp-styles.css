@@ -118,6 +118,31 @@
   .grid-container-child-uiux > img {
     width: 100%;
   }
+  /*- - - - -RESUME RESPONSIVE STYLES- - - - -*/
+  .resume-picture-container {
+    height: 180px;
+  }
+  .resume-picture {
+    content:url("http://placekitten.com/160/160")
+  }
+  .resume-interest-header {
+    font-size: 16px;
+  }
+  #resume-download-button {
+    padding: 8px 52px;
+    font-size: 12px;
+  }
+  /*- - - - -CONNECT RESPONSIVE STYLES- - - - -*/
+  .connect-section-grid {
+    grid-template-columns: auto;
+    grid-row-gap: 16px;
+  }
+  .contact-item {
+    height: 150px;
+  }
+  .contact-item > img {
+    height: 75px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -187,6 +212,25 @@
   .front-end-child {
     width: 100%;
   }
+  /*- - - - -RESUME RESPONSIVE STYLES- - - - -*/
+  .resume-picture-container {
+    height: 220px;
+  }
+  .resume-picture {
+    content:url("http://placekitten.com/200/200")
+  }
+  .resume-interest-header {
+    font-size: 18px;
+  }
+  #resume-download-button {
+    padding: 12px 64px;
+    font-size: 16px;
+  }
+  /*- - - - -CONNECT RESPONSIVE STYLES- - - - -*/
+  .connect-section-grid {
+    grid-template-columns: auto auto;
+    grid-column-gap: 16px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -242,6 +286,13 @@
   }
   .grid-container-child-uiux > img {
     width: 100%;
+  }
+  /*- - - - -CONNECT RESPONSIVE STYLES- - - - -*/
+  .contact-item {
+    height: 300px;
+  }
+  .contact-item > img {
+    height: 100px;
   }
 }
 

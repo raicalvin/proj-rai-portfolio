@@ -162,16 +162,7 @@ img, embed, object, video {
   margin-left: 1em;
 }
 
-
-
-
-
-
-
-/*- - - - -RESUME RESPONSIVE STYLES- - - - -*/
-.resume-picture-container {
-  height: 220px;
-}
+/*RESUME DEFAULT STYLES*/
 .left-blue-div {
   background-color: #0096FF;
   width: 50%;
@@ -191,7 +182,7 @@ img, embed, object, video {
   padding: 10px;
 }
 .resume-interest-header {
-  widows: 100%;
+  width: 100%;
   text-align: center;
   margin-top: 48px;
   margin-bottom: 48px;
@@ -201,40 +192,26 @@ img, embed, object, video {
   text-align: center;
 }
 #resume-download-button {
-  background-color: #4CAF50; /* Green */
   font-family: "Amiko-Bold";
-    padding: 12px 64px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    transition-duration: 0.25s;
-    -webkit-transition-duration: 0.25s; /* Safari */
-    cursor: pointer;
-    background-color: white;
-    border: 1.5px solid #0D0D0D;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s; /* Safari */
+  cursor: pointer;
+  background-color: white;
+  border: 1.5px solid #0D0D0D;
 }
 #resume-download-button:hover {
   background-color: #0D0D0D;
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
+/*CONNECT SECTION DEFAULT STYLES*/
 .connect-section-grid {
   display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 16px;
 }
 .contact-item {
   background: white;
-  height: 300px;
   /*Centering Icon In Center*/
   display: flex;
   align-items: center;
@@ -242,7 +219,6 @@ img, embed, object, video {
 }
 .contact-item > img {
   display: inline;
-  height: 100px;
 }
 .contact-item:hover {
   background: #0D0D0D;
