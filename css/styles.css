@@ -242,4 +242,15 @@ img, embed, object, video {
 }
 .contact-item > img {
   display: inline;
+  height: 100px;
+}
+.contact-item:hover {
+  background: #0D0D0D;
+  transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s; /* Safari */
+}
+.contact-item:hover > img {
+  filter: invert(100%);
+  transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s; /* Safari */
 }
