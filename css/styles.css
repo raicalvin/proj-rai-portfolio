@@ -158,3 +158,43 @@ img, embed, object, video {
   margin-right: 1em;
   margin-left: 1em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TESTING RESUME DIV*/
+.resume-picture-container {
+  height: 250px;
+}
+.green-div {
+  background-color: green;
+  width: 50%;
+}
+.brown-div {
+  background-color: brown;
+  width: 50%;
+}
+.picture-in-middle {
+  width: 100%; n
+  position: absolute;
+  text-align: center;
+}
+.test-resume-picture {
+  border-radius: 100px;
+
+  margin: 25px;
+}
