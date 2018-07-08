@@ -52,7 +52,7 @@ img, embed, object, video {
   vertical-align: middle; /*fixes 3px bottom margin issue*/
 }
 
-/*HEADER DEFAULT STYLES*/
+/*HEADER & FOOTER DEFAULT STYLES*/
 .header-title {
   width: 100%;
   text-align: center;
@@ -60,6 +60,9 @@ img, embed, object, video {
   font-size: 18px;
 }
 .container-header {
+  height: 3px;
+}
+.container-footer {
   padding-top: 12px;
   padding-bottom: 12px;
 }
