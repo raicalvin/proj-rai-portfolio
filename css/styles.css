@@ -214,3 +214,22 @@ img, embed, object, video {
   background-color: #0D0D0D;
   color: white;
 }
+
+
+
+
+
+
+
+
+
+
+.connect-section-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 16px;
+}
+.contact-item {
+  background: white;
+  height: 300px;
+}
