@@ -165,36 +165,52 @@ img, embed, object, video {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*TESTING RESUME DIV*/
+/*- - - - -RESUME RESPONSIVE STYLES- - - - -*/
 .resume-picture-container {
-  height: 250px;
+  height: 220px;
 }
-.green-div {
-  background-color: green;
+.left-blue-div {
+  background-color: #0096FF;
   width: 50%;
 }
-.brown-div {
-  background-color: brown;
+.right-white-div {
+  background-color: white;
   width: 50%;
 }
-.picture-in-middle {
-  width: 100%; n
+.center-resume-box {
+  width: 100%;
   position: absolute;
   text-align: center;
 }
-.test-resume-picture {
-  border-radius: 100px;
-
-  margin: 25px;
+.resume-picture {
+  border-radius: 110px;
+  background-color: #0096FF;
+  padding: 10px;
+}
+.resume-interest-header {
+  widows: 100%;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  font-family: "Amiko-Regular";
+}
+.resume-button-box {
+  text-align: center;
+}
+#resume-download-button {
+  background-color: #4CAF50; /* Green */
+  font-family: "Amiko-Bold";
+    padding: 12px 64px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s; /* Safari */
+    cursor: pointer;
+    background-color: white;
+    border: 1.5px solid #0D0D0D;
+}
+#resume-download-button:hover {
+  background-color: #0D0D0D;
+  color: white;
 }
