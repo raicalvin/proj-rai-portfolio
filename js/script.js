@@ -25,6 +25,9 @@ let androidProjectItems = {
 /*Create an element that will hold the modal content*/
 let modal = document.createElement('DIV');
 
+/*Get the document body to attach the modal to*/
+let documentBody = document.getElementsByTagName('body')[0];
+
 /*Add event listener to create and open modal*/
 androidProjects.addEventListener('click', function(e) {
   let target = e.target;
