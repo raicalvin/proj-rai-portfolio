@@ -1,5 +1,9 @@
+/*- - - - - - - - - -ANDROID PROJECTS JAVASCRIPT CODE- - - - - - - - - -*/
+
+/*Android Projects section from HTML*/
 let androidProjects = document.getElementById('android-projects-section');
 
+/*Modal HTML to include in fragment*/
 let modalHTML = '<div class="modal-content"><span class="close">&times;</span><h1 class="modal-project-title">Some title</h1><p class="modal-project-description">Some descrition ed Dog. Half-Blood Prince Invisibility Cloak cauldron cakes, hiya Harry! Basilisk venom Umbridge swiveling blue eye Lev</p></div>';
 
 /*Set up an object to hold descriptions for the Android Projects*/
@@ -18,9 +22,7 @@ let androidProjectItems = {
   }
 };
 
-let documentBody = document.getElementsByTagName('body')[0];
-console.log(documentBody);
-
+/*Create an element that will hold the modal content*/
 let modal = document.createElement('DIV');
 
 /*Add event listener to create and open modal*/
@@ -40,7 +42,7 @@ androidProjects.addEventListener('click', function(e) {
     modal.getElementsByClassName('modal-project-title')[0].innerText = androidProjectItems[projTitleKey].title;
     /*Set the modal description*/
     modal.getElementsByClassName('modal-project-description')[0].innerText = androidProjectItems[projTitleKey].description;
-    
+
     frag.appendChild(modal);
     documentBody.appendChild(frag);
   }
@@ -52,4 +54,20 @@ modal.addEventListener('click', function(e) {
   if (target.className === 'modal' || target.className == 'close') {
     modal.setAttribute('style', 'display: none;');
   }
+});
+
+/*- - - - - - - - - -CONNECT SECTION JAVASCRIPT CODE- - - - - - - - - -*/
+
+/*Get the section with the connect items*/
+let connectSection = document.getElementById('connect-section');
+
+connectSection.addEventListener('click', function(e) {
+  let target = e.target;
+  if (target.classList.contains('contact-item-github') || target.parentElement.classList.contains('contact-item-github')) {
+    window.open('https://github.com/raicalvin');
+  }
+  if (target.classList.contains('contact-item-linkedin') || target.parentElement.classList.contains('contact-item-linkedin')) {
+    window.open('https://www.linkedin.com/in/csrai/');
+  }
+
 });
