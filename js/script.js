@@ -8,17 +8,41 @@ let modalHTML = '<div class="modal-content"><span class="close">&times;</span><h
 
 /*Set up an object to hold descriptions for the Android Projects*/
 let androidProjectItems = {
+  projMusicStructure: {
+    title: "Musical Structure App ",
+    description: "This is an example description about the 4-story modal analysis android project that I did."
+  },
   proj4SMA: {
     title: "4-Story Modal Analysis",
-    description: "This is an example description about the 4-story modal analysis android project that I did."
+    description: "This Android application was developed for a former professor at my undergraduate institution. One of my structural engineering professor wanted an application where he could use to teach concepts in earthquake engineering, modal analysis, and building movement behavior.\n\nThis was my very first Android app and I had to use two libraries (GraphView and JAMA) to display a graph that would depict building movement in different modes and use a JAMA library to perform the matrix algebra required to obtain Eigensolutions representing the buildings' mode, frequencies, periods, mass participation factor, response time, and more.\n\nThe application itself allows students to enter in mass and stiffness values for column supports for a typical 4-story building the the program will calculate a variety of eqarthquake engineering parameters based on these values. The student can also flip through the modes of the building seeing how the floors would behave in different modes."
   },
   projQuizroid: {
     title: "Quizroid Android App",
-    description: "This is some other app that I used to do something."
+    description: "This application was created for my Android Basics Nanodegree program. We were assigned a task to create a short quiz on any topic and had to include proper layout formats and guidelines, a variety of questions utilizing TextViews, Buttons, Checboxes, RadioButtons, ScrollViews and more.\n\nI decided to implement a feature of ScrollView that would scroll to the next or previous question on the button click using an ObjectAnimator. \n\nI also wanted to create a simple, clean, and modern user interface. The rounded buttons complimented the the rounded backgrounds of the questions and the white on light blue provided a claming contrast to make the app feel more immersive."
   },
   projApples2Lemons: {
     title: "Something about something living in Japan",
     description: "Something more about living in something"
+  },
+  projMiwok: {
+    title: "Miwok Language App",
+    description: ""
+  },
+  projLinear: {
+    title: "Linear Interpolator App",
+    description: "Of the many handful of linear interpolation applications on Google Play, none had a clean and simple UI. I wanted to create an application that was very easy to use and one that had a consistent and clean user interface.\n\nI decided to go with a purple and black theme to provide sharp contrast that gave the app a sense of a really technical calculator.\n\nWith input validation, clean fonts and colors, and a results display, and a window that boldy displays the interpolated value, this app provides for a clean and easy-to-use application."
+  },
+  projBusinessCard: {
+    title: "Business Card App",
+    description: "This was another project done for my Android Basics Nanodegree program. We were tasked with creating a single-screen application that displayed information about a fictional business. Contact information had to include the business name, phone number, address, and description about the business.\n\nA ScrollView was used to display all the required information for this project. Additional components including multiple TextViews and a couple ImageViews."
+  },
+  projQuidditch: {
+    title: "Quidditch Score Keeper",
+    description: "This was an application we were tasked with creating in our Android Basics Nanodegree program. We had to use Java to write a program that would keep track of team scores for any sport (of course, I had to choose Quidditch!).\n\nButtons, ImageViews, textViews, and RealtiveLayouts were at the core of the layout. Functions were used to handl onCLick events and update variables for each teams' score."
+  },
+  projCourtCounter: {
+    title: "Court Counter App",
+    description: ""
   }
 };
 
