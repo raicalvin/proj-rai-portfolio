@@ -32,6 +32,13 @@ a {
   background-color: #F0F0F0;
 }
 
+/*Quick fix for image re-scaling issue with android app projects.
+TODO: change layout to flexbox*/
+.grid-child-project > img {
+  width: auto;
+  max-height: 480px;
+}
+
 /*CUSTOM FONT FACES*/
 @font-face {
   font-family: "Assistant-Bold";
