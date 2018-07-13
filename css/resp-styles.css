@@ -129,7 +129,8 @@
     height: 180px;
   }
   .resume-picture {
-    content:url("http://placekitten.com/160/160")
+    height: 160px;
+    width: 160px;
   }
   .resume-interest-header {
     font-size: 16px;
@@ -223,7 +224,8 @@
     height: 220px;
   }
   .resume-picture {
-    content:url("http://placekitten.com/200/200")
+    height: 200px;
+    width: 200px;
   }
   .resume-interest-header {
     font-size: 18px;
