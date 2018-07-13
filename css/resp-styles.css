@@ -80,6 +80,10 @@
     grid-column-gap: 32px;
     grid-row-gap: 32px;
   }
+  .project-image {
+    max-height: 420px;
+    width: auto;
+  }
   .android-project-title {
     width: 100%;
     font-family: "Amiko-Regular";
