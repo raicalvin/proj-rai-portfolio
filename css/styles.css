@@ -36,6 +36,7 @@ a {
 TODO: change layout to flexbox*/
 .grid-child-project > img {
   width: auto;
+  min-height: 480px;
   max-height: 480px;
 }
 

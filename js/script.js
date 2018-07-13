@@ -10,7 +10,7 @@ let modalHTML = '<div class="modal-content"><span class="close">&times;</span><h
 let androidProjectItems = {
   projMusicStructure: {
     title: "Musical Structure App ",
-    description: "This is an example description about the 4-story modal analysis android project that I did."
+    description: "This application was a project submittal for my Android Basics Nanodegree. We were tasked with creating a music player application that implemented multiple activities, ListViews with adapters, and intents and proper navigation between activities. The app had to contain various layouts for a user to be able to understand the structure of the application and be able to move around it easily.\n\nThe app itself does not play music, as the AudioManager and media focus concepts were incorporated later into the Miwok Language app."
   },
   proj4SMA: {
     title: "4-Story Modal Analysis",
@@ -26,7 +26,7 @@ let androidProjectItems = {
   },
   projMiwok: {
     title: "Miwok Language App",
-    description: ""
+    description: "This project was built in my Android Basics Nanodegree, part of the Grow With Google Developer Scolarship program. We built a Miwok language app that stored common words and phrases of the Miwok language. We used custom adapters to manage the various words, phrases, and translations, developed custom views for each list item, implemented fragments in a TabLayout with a ViewPager to allow the user to scroll between categories, and managed audio focus and audio playback using the AudioManager class.\n\nWhen the user clicks on any item, the pronounciation of the Miwok word or phrase will play. The audio itself is managed with the AudioManager class and works with the system audio to manage focus and playback, stopping when the user exist the app or pausing when there is an incoming phone call, notification, or other sound source."
   },
   projLinear: {
     title: "Linear Interpolator App",
@@ -42,7 +42,7 @@ let androidProjectItems = {
   },
   projCourtCounter: {
     title: "Court Counter App",
-    description: ""
+    description: "Similar to the Quidditch Score Keeper app, this app tracks the number of points two basketball teams have scored. he main concepts incorporated into this app were Java methods, system themes, and managing color and theme resources and references."
   }
 };
 
