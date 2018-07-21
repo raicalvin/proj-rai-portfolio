@@ -83,6 +83,9 @@ modal.addEventListener('click', function(e) {
   }
 });
 
+/*- - - - - - - - - -RESUME SECTION JAVASCRIPT CODE- - - - - - - - - -*/
+
+
 /*- - - - - - - - - -CONNECT SECTION JAVASCRIPT CODE- - - - - - - - - -*/
 
 /*Get the section with the connect items*/
