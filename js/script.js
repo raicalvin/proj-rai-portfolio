@@ -43,6 +43,10 @@ let androidProjectItems = {
   projCourtCounter: {
     title: "Court Counter App",
     description: "Similar to the Quidditch Score Keeper app, this app tracks the number of points two basketball teams have scored. he main concepts incorporated into this app were Java methods, system themes, and managing color and theme resources and references."
+  },
+  projTourGuide: {
+    title: "Tour Guide App",
+    description: "This was an app project for my Android Basics Nanodegree from Udacity. I have always had a deep fascination with Japan so naturally I decided to create this app based on cities in Japan that I had visited during my first trip there in 2018. The project submission only called for one city, but I designed the app for four other cities in case the app continues further development.\n\nWe were instructed to create a tour guide app for a city and implement some type of Android navigation (through a navigation drawer or with a ViewPager) to house different categories that tourists coming to the city might find useful.\n\nThe main concepts used in this apps development were implementing fragments with ViewPager, using explicit intents to launch tour information for the cities as well as the individual history, places, food, and secrets items, and using custom adapters and ListViews to organize and display the data on the screen.\n\nGravitDesigner was used heavily for the mockups, wireframes, and image effects including the city entries on the first page, the Shinto shrine for the History item backgrounds, and the various picture resources and densities."
   }
 };
 
