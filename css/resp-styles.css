@@ -5,10 +5,11 @@
 
 @media screen and (min-width: 320px) {
   /*- - - - -DEFAULT RESPONSIVE STYLES- - - - -*/
-  h1 { /*This is for all section headers*/
+  h1 {
+    /*This is for all section headers*/
     width: 100%;
     text-align: center;
-    font-family: 'Assistant-Bold';
+    font-family: "Assistant-Bold";
     padding-top: 36px;
     padding-bottom: 36px;
     font-size: 24px;
@@ -21,11 +22,12 @@
     padding-bottom: 96px;
   }
   /*- - - - -HERO RESPONSIVE STYLES- - - - -*/
-  h2 { /*Hero Intro Text*/
+  h2 {
+    /*Hero Intro Text*/
     margin: auto;
     font-size: 24px;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     color: white;
     font-weight: normal;
   }
@@ -62,7 +64,7 @@
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Amiko-Regular';
+    font-family: "Amiko-Regular";
     text-align: justify;
     font-size: 16px;
   }
@@ -92,11 +94,14 @@
     font-size: 16px;
   }
   /*- - - - -FRONT END PROJECT RESPONSIVE STYLES- - - - -*/
+  .grid-front-end {
+    width: 100%;
+  }
   .front-end-child {
     width: 100%;
   }
   .front-end-child-image {
-    background-color: #F0F0F0;
+    background-color: #f0f0f0;
     text-align: center;
   }
   .container-front-end {
@@ -164,11 +169,18 @@
   .grid {
     width: 300px;
   }
+  .grid-front-end {
+    width: 100%;
+  }
+  .grid-container-uiux {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
   /*DEFAULT RESPONSIVE STYLES*/
-  h1 { /*This is for all section headers*/
+  h1 {
+    /*This is for all section headers*/
     padding-top: 42px;
     padding-bottom: 42px;
     font-size: 28px;
@@ -181,7 +193,8 @@
     padding-bottom: 112px;
   }
   /*HERO RESPONSIVE STYLES*/
-  h2 { /*Hero Intro Text*/
+  h2 {
+    /*Hero Intro Text*/
     font-size: 27px;
   }
   .container-hero {
@@ -208,13 +221,14 @@
 
   /*- - - - -UI/UX DESIGN SAMPLES- - - - -*/
   .grid-container-uiux {
-    width: 450px;;
+    width: 450px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   /*DEFAULT RESPONSIVE STYLES*/
-  h1 { /*This is for all section headers*/
+  h1 {
+    /*This is for all section headers*/
     padding-top: 42px;
     padding-bottom: 42px;
     font-size: 32px;
@@ -223,7 +237,8 @@
     height: 116px;
   }
   /*HERO RESPONSIVE STYLES*/
-  h2 { /*Hero Intro Text*/
+  h2 {
+    /*Hero Intro Text*/
     font-size: 30px;
   }
   .container-hero {
@@ -257,7 +272,8 @@
 
 @media screen and (min-width: 1280px) {
   /*DEFAULT RESPONSIVE STYLES*/
-  h1 { /*This is for all section headers*/
+  h1 {
+    /*This is for all section headers*/
     padding-top: 48px;
     padding-bottom: 48px;
     font-size: 36px;
@@ -270,7 +286,8 @@
     padding-bottom: 192px;
   }
   /*HERO RESPONSIVE STYLES*/
-  h2 { /*Hero Intro Text*/
+  h2 {
+    /*Hero Intro Text*/
     font-size: 33px;
   }
   .container-hero {
@@ -320,12 +337,14 @@
 
 @media screen and (min-width: 1440px) {
   /*DEFAULT RESPONSIVE STYLES*/
-  h1 { /*This is for all section headers*/
+  h1 {
+    /*This is for all section headers*/
     padding-top: 48px;
     padding-bottom: 48px;
     font-size: 36px;
   }
-  h2 { /*Hero Intro Text*/
+  h2 {
+    /*Hero Intro Text*/
     font-size: 36px;
   }
   .container-hero {
@@ -335,6 +354,4 @@
   .front-end-child {
     width: 50%;
   }
-
-
 }
