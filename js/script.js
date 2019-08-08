@@ -9,6 +9,11 @@ let modalHTML =
 
 /*Set up an object to hold descriptions for the Android Projects*/
 let androidProjectItems = {
+  projReelTimeApp: {
+    title: "ReelTime Android Application",
+    description:
+      "This was our apprentice final project where we worked with a web team and a set of designers to build a social networking movie planning app. Users could search for movies playing in their favorite theaters, create movie viewing events with their friends, and accept and decline movie events for showings they wanted to attend or not. All the data was retrieved from a custom backend built by the web team.\n\nThe Android tech stack included Kotlin, RxJava, OkHTTP, Retrofit, and Butterknife."
+  },
   projMusicStructure: {
     title: "Musical Structure App ",
     description:
